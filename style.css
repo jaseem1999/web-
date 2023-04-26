@@ -5,6 +5,24 @@ body{
     width: 202px;
     height: 72px;
 }
+.logoImg2{
+    width: 62px;
+    height: 62px;
+}
+.logoImg3{
+    width: 62px;
+    height: 62px;
+}
+.nav-link{
+    display: inline-block;
+    padding: 16px 0px;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    color: #1a1b1e;
+    white-space: nowrap;
+}
 .nav-item:hover ,.nav-link:hover{
     background-color: lightcoral;
     color: #ffffff;
@@ -25,6 +43,343 @@ body{
 ul {
     list-style: none;
 }
+
+.Banner {
+    height: 342px;
+    width: 100%;
+}
+
+.oldimagtitle img {
+    position: relative;
+    left: 20px;
+    top: 65px;
+    z-index: 2;
+}
+    
+
+.notif_box {
+    width: 50%;
+    height: 215px;
+    margin-left: 70px;
+    position: absolute;
+    top: 130px;
+    background-color: rgb(224 231 230 / 50%);
+   
+    z-index: 2;
+}
+.notif_box__title {
+    height: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(240, 241, 243);
+    background-color: rgb(118 141 119 / 33%);
+}
+.notif_content li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    color: white;
+    margin-bottom: 0;
+    line-height: 48px;
+    font-size: 32px;
+}
+
+.notif_content li {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.oldimag1 {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    background-image: url('img/slider-6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    width: 700px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    font-family: 'Lora', serif;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: whitesmoke;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.title span {
+    font-weight: bold;
+    font-size: medium;
+    margin: 10px;
+    color: black;
+}
+
+.title p {
+    font-weight: normal;
+    font-size: small;
+    margin: 10px;
+    color: black;
+}
+
+.oldimag2 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    background-image: url('img/slider-7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oldimag3 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    background-image: url('img/slider-8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oldimag4 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    background-image: url('img/logoMain.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oldimag1 {
+    animation: slide1 5s linear infinite;
+}
+
+.oldimag2 {
+    animation: slide2 5s linear infinite;
+}
+
+.oldimag3 {
+    animation: slide3 5s linear infinite;
+}
+
+.oldimag4 {
+    animation: slide4 5s linear infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        visibility: visible;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+.fade-bottom {
+    height: 25rem;
+    background-image: linear-gradient(180deg, transparent, rgb(255 238 238 / 1%),#11111163);
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .oldimagtitle h1 {
+        font-size: 60px;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .title {
+        width: 400px;
+        position: absolute;
+        top: 10px;
+        left: 70px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .oldimagtitle h1 {
+        font-size: 35px;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 479px) and (max-width: 768px) {
+    .title {
+        width: 300px;
+        font-weight: 25px;
+        position: absolute;
+        top: 10px;
+        left: 70px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .oldimagtitle h1 {
+        font-size: 30px;
+
+    }
+
+}
+
+@media (min-width: 400px) and (max-width:479px) {
+    .title {
+        width: 200px;
+        font-weight: 25px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .oldimagtitle h1 {
+        font-size: 25px;
+
+    }
+}
+
+@media (min-width:300px) and (max-width:400px) {
+    .title {
+        width: 200px;
+        font-weight: 25px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .oldimagtitle h1 {
+        color: rgba(255, 4, 4, 0.726);
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 20px) and (max-width:300px) {
+    .title {
+        width: 150px;
+        font-weight: 25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .oldimagtitle h1 {
+        color: rgba(255, 4, 4, 0.726);
+        font-size: 20px;
+    }
+}
+
 
 .footer {
     margin-top: 50px;
