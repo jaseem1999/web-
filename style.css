@@ -1,5 +1,12 @@
 body{
-   background-color:  rgb(105 162 227 / 56%);
+   background-color: white;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .logoImg{
     width: 202px;
@@ -45,8 +52,9 @@ ul {
 }
 
 .Banner {
-    height: 342px;
+    height: 393px;
     width: 100%;
+    margin-top: 90px;
 }
 
 .oldimagtitle img {
@@ -169,7 +177,7 @@ ul {
     height: 400px;
     position: absolute;
     top: 80px;
-    background-image: url('img/logoMain.png');
+    background-image: url('img/slider-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -380,9 +388,47 @@ ul {
     }
 }
 
+.ot-heading {
+    margin-bottom: 15px;
+}
+.ot-heading>span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #2d8bc2;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.ot-heading h2 {
+    margin-bottom: 0;
+    line-height: 48px;
+    font-size: 32px;
+}
+.new-align {
+    text-align: justify;
+}
+
+ot-heading>span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #2d8bc2;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    left: 20px;
+}
+.ot-heading h2 {
+    margin-bottom: 0;
+    line-height: 48px;
+    font-size: 32px;
+}
+
+
 
 .footer {
-    margin-top: 50px;
+    margin-top: 0px;
     height: 300px;
     margin-bottom: 00px;
     background-color: #555656;
