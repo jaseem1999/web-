@@ -473,9 +473,17 @@ ot-heading>span {
 }
 .w-100 {
     width: 100% !important;
-    height: 500px;
+    height: 400px;
 }
-
+.carousel-inner {
+    position: relative;
+    left: 160;
+    width: 75%;
+    overflow: hidden;
+}
+#center {
+    text-align: center;
+}
 .footer {
     margin-top: 0px;
     height: 300px;
